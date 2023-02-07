@@ -29,7 +29,7 @@ define Package/zerotier
   DEPENDS:=+libpthread +libstdcpp +kmod-tun +ip +libminiupnpc +libnatpmp
   TITLE:=Create flat virtual Ethernet networks of almost unlimited size
   URL:=https://www.zerotier.com
-  SUBMENU:=VPN
+  SUBMENU:=ZT
 endef
 
 define Package/zerotier/description
